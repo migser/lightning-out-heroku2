@@ -2,10 +2,10 @@ $("#prodBtn").click(prodLogin);
 $("#sandBtn").click(sandLogin);
 
 const apiVersion = 'v37.0';
-let clientId = '3MVG9KsVczVNcM8xlCN5oBUy_t4n2vUT9uktAVRxAR5SblR0fRe1zAbtSSJsWckFQvlJd_NdmEc8IGvaeBN9q';
+const clientId = '3MVG9KsVczVNcM8xlCN5oBUy_t4n2vUT9uktAVRxAR5SblR0fRe1zAbtSSJsWckFQvlJd_NdmEc8IGvaeBN9q';
 let loginUrl = 'https://login.salesforce.com/';
-let redirectURI = "https://localhost:8081/oauthcallback.html";
-let proxyURL = 'http://localhost:8080/proxy/';
+const redirectURI = "https://demo-lightning-out2.herokuapp.com/oauthcallback.html";
+const proxyURL = 'http://localhost:8080/proxy/';
 
 
 function prodLogin() {
